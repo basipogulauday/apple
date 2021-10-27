@@ -3,17 +3,17 @@ pipeline{
   stages{
     stage('checkout'){
       steps{
-       echo this is a git stage
+       echo 'this is a git stage'
       }
     }
     stage('mvn'){
       steps{
-        echo this is a mvn stage
+        echo 'this is a mvn stage'
       }
     }
     stage('deploy'){
       steps{
-       echo this is a deploy stage
+       echo 'this is a deploy stage'
       }
     }
   }
