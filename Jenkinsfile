@@ -14,6 +14,8 @@ pipeline{
     stage('deploy'){
       steps{
         this is a deploy stage
+      }
+    }
   }
 }
     
